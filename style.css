@@ -1,4 +1,4 @@
-
+/* 
 .header {
     display: flex;
     justify-content: space-between;
@@ -18,9 +18,83 @@
 
 span {
     font-size: 12px;
+} */
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
 }
 
 
-* {
-    /* border: 1px dashed green; */
+
+.box-sr {
+  /* Defaults */
+  height: 50rem;
+  width: 50rem;
+  background-color: silver;
+  /*  */
+  z-index: 99;
+
+  
+}
+
+.box-jr {
+  /* Defaults */
+  height: 20rem;
+  width: 20rem;
+  background-color: gray;
+
+  /*  */
+
+  /* background-image: url("./cat.jpg");
+  background-position: 30px; */
+  /* display: ; */
+
+  position: relative;
+  overflow: scroll;
+}
+
+.text {
+  /* margin-right: 20px;
+  padding-left: 30px; */
+  /* text-align: center; */
+  /* font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700; */
+  font: italic normal 700 30px "Times New Roman", Times, serif;
+  /* border-style: solid;
+    border-width: 5px;
+    border-color: blue; */
+
+    width: 70rem;
+  border: 5px solid blue;
+  border-radius: 50px;
+  outline: red dotted 10px;
+
+  text-decoration: overline;
+  text-transform: lowercase;
+
+  cursor: pointer;
+
+  letter-spacing: 5px;
+  line-height: 20px;
+  word-spacing: 40px;
+  text-align: right;
+
+  position:absolute;
+  /* right: 30px;
+  bottom: 0px; */
+}
+
+ul{
+    /* list-style-image: url("./cat.jpg"); */
+    list-style-position: inside;
+    list-style-type: none;
+
+    position: absolute;
 }

@@ -1,0 +1,393 @@
+/* Global  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: OpenSans, sans-serif, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  /* border: 1px dashed green; */
+}
+/* =========================== */
+
+/* COLORS */
+/* pitch: "#e75849" */
+/* gray: "#bcbdc1" */
+/* lightGray : "#3e4651" */
+
+
+
+/* HEADER  */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 200px;
+    background-color:#bcbdc1 ;
+    padding-top: 20px;
+    
+}
+
+.header div{
+    font-weight: 700;
+}
+
+.header .nav ul {
+    display: flex;
+    gap: 5em;
+}
+
+
+
+
+/* HERO */
+.hero{
+    padding-left: 100px;
+    padding-bottom: 400px;
+    background-color: #bcbdc1;
+}
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+    letter-spacing: 10px;
+}
+
+.hero span{
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.go-shopping{
+    background-color:#e75849 ;
+    cursor: pointer;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+}
+
+/* COLLECTION */
+.collection {  
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.collection div {
+    width: 50%;
+    margin-bottom: 75px;
+}
+
+.men{
+    border-style: outset;
+    margin-top: 75px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+.women{
+    border-style: outset;
+    margin-top: 75px;
+    border-radius: 5px;
+}
+
+.men h2{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+.men button{
+    margin-left: 200px;
+    cursor:pointer;
+    background: none;
+    border: none;
+    
+}
+.men button:hover{
+    color: #e75849;
+}
+
+.men span{
+    color: #3e4651;
+}
+
+.women h2{
+    margin-top: 30px;
+    margin-right: 200px;
+    margin-left: 30px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    
+}
+
+.women button{
+    margin-right: 200px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor:pointer;
+    background: none;
+    border: none;
+}
+
+.women button:hover{
+    color: #e75849;
+}
+
+.women span{
+    color:#3e4651;
+}
+
+/* FEATURED */
+
+.featured{
+    margin: 60px 20px;
+}
+
+.featured h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured button{
+    margin-left: 375px;
+    border:1px solid lightgray;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    background: none;
+    font-size: 17px;
+}
+
+.featured button:hover{
+    color: #e75849;
+    border-color: #e75849;
+}
+    
+
+.featured-products {
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.card .new{
+    border: 9px solid #e75849;
+    background-color: #e75849;
+    width: 50px;
+    color: white;
+    margin-bottom: 150px;
+    font-size: 13px;
+}
+
+.card .product{
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.card .price{
+    text-align: center;
+    color: #e75849;
+    margin-bottom: 20px;
+}
+
+.featured-products div{
+    background-color: #d5d6dad1;
+}
+
+/* OFFER */
+
+.offer{
+    padding: 75px;
+    background-image: url("./shopping.png");
+    background-size: cover;
+    background-position: center;
+}
+.offer h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+}
+
+.offer p{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+.offer button{
+    margin-left: 300px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: none;
+    font-size: 17px;
+    background-color: #e75849;
+    color: white;
+}
+
+/* ARRIVALS */
+
+.arrivals{
+    margin: 60px 20px ;
+
+}
+
+.arrivals h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.arrivals button{
+    margin-left: 375px;
+    border:1px solid lightgray;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    background: none;
+    font-size: 17px;
+}
+
+.arrivals button:hover{
+    color: #e75849;
+    border-color: #e75849;
+}
+    
+.new-arrivals {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.card-arrival .new-arrival{
+    border: 9px solid #e75849;
+    background-color: #e75849;
+    width: 50px;
+    color: white;
+    margin-bottom: 150px;
+    font-size: 13px;
+}
+
+.new-arrivals h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.new-arrivals p{
+    text-align: center;
+    color: #e75849;
+    margin-bottom: 20px;
+}
+
+.new-arrivals div{
+    background-color: #d5d6dad1;
+}
+
+/* NEWSLETTER */
+
+.newsletter{
+    padding-top: 50px;
+    margin: 50px 0px;
+}
+
+.our-newsletter h2{
+    text-align: center;
+}
+
+.our-newsletter p{
+    margin: 15px 15px;
+    text-align: center;
+}
+
+.newsletter button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 0px;
+    cursor: pointer;
+    background: none;
+    font-size: 17px;
+    background-color: #e75849;
+    color: white;
+}
+
+.insert-email{
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    width: 375px;
+    padding: 5px;
+    margin-left: 250px;
+}
+
+
+
+.insert-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insert-email input{
+    border: none;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #0e1420;
+    color: white;
+    padding: 50px 10px;
+}
+
+.footer {
+    display: grid;
+ grid-template-columns: repeat(4, 1fr);
+}
+
+.footer ul h3{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.footer ul p{
+    font-size: 13px;
+    margin-top: 10px;
+    color: gray;
+}
+
+
+
+
+/* #0e1420 */

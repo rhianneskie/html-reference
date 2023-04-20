@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
   </head>
 
   <body>
@@ -24,21 +24,21 @@
 
     <section class="hero">
       <h1>
-        NEW <br />
+        <span>NEW</span> <br />
         ARRIVALS
       </h1>
 
-      <button>GO SHOPPING</button>
+      <button class="go-shopping">GO SHOPPING</button>
     </section>
 
     <section class="collection">
-      <div>
-        <h2>MEN BACKPACK</h2>
+      <div class="men">
+        <h2> <span>MEN</span> <br> BACKPACK</h2>
         <button>View Collection</button>
       </div>
 
-      <div>
-        <h2>WOMEN BACKPACK</h2>
+      <div class="women">
+        <h2> <span>WOMEN</span> BACKPACK</h2>
         <button>View Collection</button>
       </div>
     </section>
@@ -55,29 +55,29 @@
             </button>
         </div>
 
-        <ul>
-            <div>
-                <div>NEW</div>
-                <div>HEADPHONE ONE BLACK</div>
-                <div>$29</div>
+        <ul class="featured-products">
+            <div class="card">
+                <div class="new">NEW</div>
+                <div class="product">HEADPHONE ONE BLACK</div>
+                <div class="price">$29</div>
             </div>
     
-            <div>
-                <div>NEW</div>
-                <div>SPEAKER BEATS PILL</div>
-                <div>$199</div>
+            <div  class="card">
+                <div class="new">NEW</div>
+                <div class="product">SPEAKER BEATS PILL</div>
+                <div class="price">$199</div>
             </div>
     
-            <div>
-                <div>NEW</div>
-                <div>APPLE AIR PODS</div>
-                <div>$122</div>
+            <div class="card">
+                <div class="new">NEW</div>
+                <div class="product">APPLE AIR <br>PODS</div>
+                <div class="price">$122</div>
             </div>
     
-            <div>
-                <div>NEW</div>
-                <div>SMARTWARTCH F9 NEGRO</div>
-                <div>$99</div>
+            <div class="card">
+                <div class="new">NEW</div>
+                <div class="product">SMARTWARTCH F9 NEGRO</div>
+                <div class="price">$99</div>
             </div>
         </ul>
     </section>
@@ -98,39 +98,39 @@
             <button>View All</button>
         </div>
 
-        <div>
-            <div>
-                <p>NEW</p>
+        <div class="new-arrivals">
+            <div class="card-arrival">
+                <p class="new-arrival">NEW</p>
                 <h3>HEADPHONE ONE BLACK</h3>
                 <p>$29</p>
             </div>
     
-            <div>
-                <p>NEW</p>
+            <div class="card-arrival">
+                <p class="new-arrival">NEW</p>
                 <h3>SPEAKER BEATS PILL</h3>
                 <p>$199</p>
             </div>
     
-            <div>
-                <p>NEW</p>
+            <div class="card-arrival">
+                <p class="new-arrival">NEW</p>
                 <h3>APPLE AIR PODS</h3>
                 <p>$122</p>
             </div>
     
-            <div>
-                <p>NEW</p>
+            <div class="card-arrival">
+                <p class="new-arrival">NEW</p>
                 <h3>SMARTWATCH F9 NEGRO</h3>
                 <p>$99</p>
             </div>
     
-            <div>
-                <p>NEW</p>
+            <div class="card-arrival">
+                <p class="new-arrival">NEW</p>
                 <h3>SMARTWARTCH F9 NEGRO</h3>
                 <p>$99</p>
             </div>
     
-            <div>
-                <p>NEW</p>
+            <div class="card-arrival">
+                <p class="new-arrival">NEW</p>
                 <h3>SMARTWARTCH F9 NEGRO</h3>
                 <p>$99</p>
             </div>
@@ -139,12 +139,13 @@
     </section>
 
     <section class="newsletter">
-        <div>
+        <div class="our-newsletter">
             <h2>OUR NEWSLETTER</h2>
             <p>Promotion new products and sales directly to you</p>
         </div>
 
-        <div>
+        <div class="insert-email">
+            <input type="text" placeholder="John.doe@gmail.com"/>
             <button>SUBSCRIBE</button>
         </div>
     </section>
@@ -152,7 +153,7 @@
     <section class="footer">
         <ul>
             <h3>SARA</h3>
-            <div>Products store</div>
+            <p>Products store</p>
         </ul>
 
         <ul>
@@ -170,9 +171,9 @@
             <p>Gift Cards</p>
         </ul>
 
-        <div>
+        <ul>
             <h3>FOLLOW</h3>
-        </div>
+        </ul>
 
     </section>
 
